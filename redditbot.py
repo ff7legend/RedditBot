@@ -74,10 +74,10 @@ def run_bot():
 
 #	
 dlmp3 = ""		
-r = praw.Reddit(user_agent = "WatDatSongBeBot") #WatDatSongBeBot pass:password1
+r = praw.Reddit(user_agent = "WatDatSongBeBot") 
 r.login('WatDatSongBeBot','password1')
 
-#print(spotifyLink(match("song.mp3")))
+
 
 run_bot()
 
